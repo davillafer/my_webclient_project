@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Board Games Project</display-name>
+	<servlet>
+		<servlet-name>BoardGames</servlet-name>
+		<servlet-class>com.servlet.BoardGames</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGames</servlet-name>
+		<url-pattern>/boardGames</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.servlet.Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>com.servlet.Index</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.servlet.Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>com.servlet.Signup</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGamesShoppingCart</servlet-name>
+		<servlet-class>com.servlet.BoardGamesShoppingCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGamesShoppingCart</servlet-name>
+		<url-pattern>/boardGamesShoppingCart</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGamesShoppingCartDelete</servlet-name>
+		<servlet-class>com.servlet.BoardGamesShoppingCartDelete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGamesShoppingCartDelete</servlet-name>
+		<url-pattern>/boardGamesShoppingCartDelete</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Purchase</servlet-name>
+		<servlet-class>com.servlet.Purchase</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Purchase</servlet-name>
+		<url-pattern>/purchase</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PersonalData</servlet-name>
+		<servlet-class>com.servlet.PersonalData</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PersonalData</servlet-name>
+		<url-pattern>/personalData</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Confirm</servlet-name>
+		<servlet-class>com.servlet.Confirm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Confirm</servlet-name>
+		<url-pattern>/confirm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Users</servlet-name>
+		<servlet-class>com.servlet.user.Users</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Users</servlet-name>
+		<url-pattern>/users</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserCreate</servlet-name>
+		<servlet-class>com.servlet.user.UserCreate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserCreate</servlet-name>
+		<url-pattern>/userCreate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserDelete</servlet-name>
+		<servlet-class>com.servlet.user.UserDelete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserDelete</servlet-name>
+		<url-pattern>/userDelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserModify</servlet-name>
+		<servlet-class>com.servlet.user.UserModify</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserModify</servlet-name>
+		<url-pattern>/userModify</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserView</servlet-name>
+		<servlet-class>com.servlet.user.UserView</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserView</servlet-name>
+		<url-pattern>/userView</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGamesPrivate</servlet-name>
+		<servlet-class>com.servlet.boardgame.BoardGamesPrivate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGamesPrivate</servlet-name>
+		<url-pattern>/boardGamesPrivate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGameCreate</servlet-name>
+		<servlet-class>com.servlet.boardgame.BoardGameCreate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGameCreate</servlet-name>
+		<url-pattern>/boardGameCreate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGameDelete</servlet-name>
+		<servlet-class>com.servlet.boardgame.BoardGameDelete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGameDelete</servlet-name>
+		<url-pattern>/boardGameDelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGameModify</servlet-name>
+		<servlet-class>com.servlet.boardgame.BoardGameModify</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGameModify</servlet-name>
+		<url-pattern>/boardGameModify</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGameViewPrivate</servlet-name>
+		<servlet-class>com.servlet.boardgame.BoardGameViewPrivate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGameViewPrivate</servlet-name>
+		<url-pattern>/boardGameViewPrivate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BoardGameView</servlet-name>
+		<servlet-class>com.servlet.BoardGameView</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardGameView</servlet-name>
+		<url-pattern>/boardGameView</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>  

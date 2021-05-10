@@ -1,0 +1,116 @@
+.background-black {
+	background-color: #222;
+}
+
+.my-container{
+	padding: 1em;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.text-grey{
+	color: #9d9d9d;
+	
+}
+
+.small-margin-bottom{
+	margin-bottom: 1em;
+}
+.medium-margin-top{
+	margin-top: 2em;
+}
+.medium-margin-bottom{
+	margin-bottom: 2em;
+}
+.width-100{
+	width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.boardgame-img{
+	width: 15em;
+	height: 15em;
+	margin-bottom: 1em;
+}
+
+.boardgame-img-big{
+	width: 30em;
+	height: 30em;
+	margin-bottom: 1em;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color: #080808;
+}
+
+.danger {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.success {
+	padding: 20px;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.warning {
+	padding: 20px;
+	background-color: #ff9800;;
+	color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.username{
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.short-form-control{
+	width: 11%
+}
+
+.form-horizontal .text-align-left{
+	text-align: left;
+}
+
+.title_button {
+  background-color: #222; 
+  color: #fff; 
+	border: 2px solid #222;
+font-size: 20px
+}
+
+.title_button:hover {
+  color: #CCFFFF; 
+
+}
+
+html {
+    background-color: #222;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
